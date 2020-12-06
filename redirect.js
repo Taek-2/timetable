@@ -24,25 +24,6 @@ function ca() //창체: 온라인 클래스만 시행하는 과목
   });
 }
 
-function korean() //국어: Zoom만 시행하는 과목
-{swal("Zoom으로 이동할까요?","","success",{
-    buttons: {
-      cancel: "취소",
-      OK: true,
-    }
-  })
-  .then((value) => {
-    switch (value) {
-   
-      case "OK":
-        location.href = "https://zoom.us/j/9641411259?pwd=cjMxYUFJYXJPQ0FZTGZ4ZEVRcjVmUT09";
-        break;   
-      default:
-        
-    }
-  });
-}
-
 function social() //통합사회: Zoom만 시행하는 과목
 {swal("Zoom으로 이동할까요?","","success",{
     buttons: {
@@ -173,6 +154,31 @@ function tamsil() //과학탐구실험: Zoom, 온라인 클래스 병행하는 �
        
           case "oncl":
             location.href = "https://hoc41.ebssw.kr/earthssss20/";
+            break;
+       
+          default:
+            
+        }
+      });
+}
+
+function korean() //국어: Zoom, 온라인 클래스 병행하는 과목
+{swal("어떤 형태의 수업인가요?","","info",{
+        buttons: {
+          cancel: "취소",
+          oncl: { text: "온라인 클래스", value: "oncl",},
+          Zoom: true,
+        }
+      })
+      .then((value) => {
+        switch (value) {
+       
+          case "Zoom":
+            location.href = "https://zoom.us/j/9641411259?pwd=cjMxYUFJYXJPQ0FZTGZ4ZEVRcjVmUT09";
+            break;
+       
+          case "oncl":
+            location.href = "https://hoc41.ebssw.kr/dtkorean/";
             break;
        
           default:
