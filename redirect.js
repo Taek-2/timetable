@@ -149,7 +149,7 @@ function tamsil() //과학탐구실험: Zoom, 온라인 클래스 병행하는 �
         switch (value) {
        
           case "Zoom":
-            location.href = "https://zoom.us/j/7122146131?pwd=dy9pakJSUDEvQVNpaGVxOGZGT1F6QT09";
+            location.href = "https://us02web.zoom.us/j/83930270074?pwd=c3VzMmM4NEU2R1FVNitJMVcyalI2QT09";
             break;
        
           case "oncl":
