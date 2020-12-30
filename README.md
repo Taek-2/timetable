@@ -9,5 +9,6 @@ pc/mobile: http://오늘의시간표.kro.kr
 
 ### 예시
 korean() => 국어
+
 techhome() => 기술가정
 등...
