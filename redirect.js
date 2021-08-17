@@ -7,7 +7,7 @@ by 동탄중앙고 10613 오은택*/
 
 
 
-function math() //수학1 : Zoom, 온라인 클래스 병행하는 과목
+function math() //수학2 : Zoom, 온라인 클래스 병행하는 과목
     {swal("Zoom에서 출석후 온클 강의를 들어주세요.","","info",{
         buttons: {
           cancel: "취소",
@@ -105,7 +105,7 @@ function stactics() //확률과 통계: Zoom만 시행하는 과목
 });
 }
 
-function korean() //문학: Zoom만 시행하는 과목
+function korean() //언매: Zoom만 시행하는 과목
 {swal("Zoom으로 이동할까요?","","success",{
   buttons: {
     cancel: "취소",
@@ -149,8 +149,8 @@ function japanese() //일본어1: Zoom, 온라인 클래스 병행하는 과목
       });
 }
 
-function english() //영어: Google Meet만 시행하는 과목
-{swal("구글 밋으로 이동할까요?","","success",{
+function english() //영어2: Zoom만 시행하는 과목
+{swal("Zoom으로 이동할까요?","","success",{
   buttons: {
     cancel: "취소",
     OK: true,
@@ -160,7 +160,7 @@ function english() //영어: Google Meet만 시행하는 과목
   switch (value) {
  
     case "OK":
-      location.href = "https://meet.google.com/lookup/h6nngwymq2";
+      location.href = "https://zoom.us/j/3254480979?pwd=ZTFtNW5MQnRrM2RIU2RoQmVFUnRxZz09";
       break;   
     default:
       
