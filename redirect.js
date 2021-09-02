@@ -217,7 +217,7 @@ function pe() //운동과 건강: Zoom만 시행하는 과목
   switch (value) {
  
     case "OK":
-      location.href = "https://us04web.zoom.us/j/8547166710?pwd=akZ3ZlZ3TE83T2JoMmZ4eWxnM096dz09";
+      location.href = "https://zoom.us/j/8547166710?pwd=akZ3ZlZ3TE83T2JoMmZ4eWxnM096dz09";
       break;   
     default:
       
